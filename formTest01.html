@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>폼 연습01</title>
+</head>
+<body>
+    <form>
+        아이디 : <input type="text" name="memberid"><br>
+        비밀번호 : <input type="password" name="memberpw"><br>
+        <input type="submit" value="로그인">
+        <input type="reset" value="초기화">
+        <br><br>
+        개인정보활용 : <input type="radio" name="info" checked> 동의 <input type="radio" name="info"> 거부
+        <br><br>
+        취미 : <br>
+        운동 <input type="checkbox" name="hobby1">
+        독서 <input type="checkbox" name="hobby2">
+        음악감상 <input type="checkbox" name="hobby3">
+        영화감상 <input type="checkbox" name="hobby4">
+        <br><br>
+        이메일 : <input type="text" name="email1"> @ <input type="text" name="email2">
+        <select>
+            <option>직접입력</option>
+            <option>naver.com</option>
+            <option>daum.net</option>
+            <option>gamil.com</option>
+        </select>
+        <br><br>
+        자기소개:<br>
+        <textarea rows="8" cols="80" name="intro">자기소개 100자 이상</textarea>
+        <br><br>
+        <input type="button" value="양식제출">
+        <input type="file"> 2MB까지 첨부 가능
+    </form>
+</body>
+</html>
